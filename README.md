@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="img/datamine_logo.png" width="700"><br>
+</p>
+
+
 # LabReportConverter
 
 Aplicativo que converte laudos para template no formato Fusion.
@@ -78,3 +83,10 @@ Aplicativo que converte laudos para template no formato Fusion.
 - As **amostras de umidade** são identificadas por possuírem a cadeia de caracteres `UMID` em seu nome. Elas serão rotuladas com o código `H`.
 - As **amostras de densidade** são identificadas por possuírem a cadeia de caracteres `DENS` em seu nome. Elas serão rotuladas com o código `DE`.
 - As **demais amostras** são aquelas que não apresentam nenhuma dessas cadeias de caracteres em seu nome. Elas serão rotuladas com o código `A`.
+
+## Versões do Software
+- python v3.9.18
+- numpy v1.26.1
+- pandas v2.1.2
+- xlrd v2.0.1
+- pyinstaller v6.1.0
