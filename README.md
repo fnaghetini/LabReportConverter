@@ -1,7 +1,7 @@
 <p align="center">
-  <img src="img/datamine_logo.png" width="700"><br>
+  <img src="img/datamine_logo.png" width="500"><br>
 </p>
-
+<br>
 
 # LabReportConverter
 
@@ -11,32 +11,32 @@ Aplicativo que converte laudos para template no formato Fusion.
 
 1. Ao executar o aplicativo **LabReportConverter.exe**, a seguinte janela será aberta:
 <p align="center">
-  <img src="img\app_ui.png" width="500"><br>
+  <img src="img\app_ui.png" width="400"><br>
 </p>
 
 2. Na lista suspensa **Tipo de Laudo**, selecione o tipo de relatório que deseja converter:
 <p align="center">
-  <img src="img\app_ui_report_types.png" width="500"><br>
+  <img src="img\app_ui_report_types.png" width="400"><br>
 </p>
 
 3. Clique no botão **Converter Laudo(s)**:
 <p align="center">
-  <img src="img\app_ui_convert_button.png" width="500"><br>
+  <img src="img\app_ui_convert_button.png" width="400"><br>
 </p>
 
 4. No Explorador de Arquivos do Windows, selecione uma pasta que contenha apenas laudos (em formato `.xls`) do tipo selecionado no item 2:
 <p align="center">
-  <img src="img\browse_screen.png" width="500"><br>
+  <img src="img\browse_screen.png" width="400"><br>
 </p>
 
 5. Para fins de exemplificação, suponha que a pasta selecionada foi **Modelo Químico**:
 <p align="center">
-  <img src="img/folder_before_converting.png" width="500"><br>
+  <img src="img/folder_before_converting.png" width="400"><br>
 </p>
 
 6. Veja que, após a conversão, quatro novos arquivos (.csv) com o sufixo `_Fusion_Template` foram adicionados à pasta. Esses arquivos são os templates associados à conversão dos quatro relatórios iniciais:
 <p align="center">
-  <img src="img/folder_after_converting.png" width="500"><br>
+  <img src="img/folder_after_converting.png" width="400"><br>
 </p>
 
 
