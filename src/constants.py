@@ -48,4 +48,4 @@ DENSITY_REPORT_UNITS = ['UNIT', '', 'g/cm3']
 DENSITY_REPORT_COLUMNS = ['SAMPLE', 'SAMPLE_TYPE', 'Densidade']
 
 # Output suffix
-OUTPUT_SUFFIX = ' (Fusion Template).csv'
+OUTPUT_SUFFIX = '_Fusion_Template.csv'
