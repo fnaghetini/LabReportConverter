@@ -19,7 +19,9 @@ def __get_input_files_list(folder_path):
 
 
 def __read_xls(file):
-    return xlrd.open_workbook(file).sheet_by_index(0)
+    workbook = xlrd.open_workbook(file)
+    sheet = workbook.sheet_by_index(0)
+    return workbook, sheet
 
 
 def __save_as_csv(table, path):

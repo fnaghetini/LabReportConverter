@@ -14,10 +14,10 @@ def generate_lab_report(report_type):
         return
 
     for file in xls_input_files:
-        raw_report = __read_xls(file)
-        df_report_header = __build_report_header(raw_report, report_type.get())
+        report_workbook, report_sheet = __read_xls(file)[0], __read_xls(file)[1]
+        df_report_header = __build_report_header(report_workbook, report_sheet, report_type.get())
         df_method_unit_table = __build_method_unit_table(report_type.get())
-        df_table_values = __build_table_values(raw_report, report_type.get())
+        df_table_values = __build_table_values(report_sheet, report_type.get())
         final_template = pd.concat([df_report_header, df_method_unit_table, df_table_values])
         __save_as_csv(final_template, file[:-4] + OUTPUT_SUFFIX)
 
