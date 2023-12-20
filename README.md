@@ -70,7 +70,7 @@ Aplicativo que converte laudos para template no formato Fusion.
   - **Pb (%)**: coluna `F`
   - **Zn (%)**: coluna `G`
   - **Ag (g/t)**: coluna `H`
-  - **Peso (kg)**: coluna `K`
+  - **Sólido (%)**: coluna `K`
 - No caso dos **relatórios de umidade**, o único analito é:
   - **Umidade (%)**: coluna `I`
 - No caso dos **relatórios de densidade**, o único analito é:
