@@ -24,7 +24,7 @@ ZN_COL_IDX = 6
 AG_COL_IDX = 7
 UMIDITY_COL_IDX = 8
 DENSITY_COL_IDX = 9
-WEIGHT_COL_IDX = 10
+SOLID_COL_IDX = 10
 
 # Report header
 REPORT_HEADER_KEYS = ['LAB JOB NUMBER', 'CLIENT', 'NUMBER OF SAMPLES', 'DATE RECEIVED', 'DATE FINALIZED',
@@ -33,9 +33,9 @@ CLIENT = 'Geologia'
 PROJECT = 'PROJETO CHAPADA'
 
 # Chemistry reports
-CHEMISTRY_REPORT_METHODS = ['METHOD CODE', '', 'FAAAS', 'AAS', 'LECO', 'AAS', 'AAS', 'AAS', 'AAS', 'WEIGHT']
-CHEMISTRY_REPORT_UNITS = ['UNIT', '', 'g/t', '%', '%', '%', '%', '%', 'g/t', 'kg']
-CHEMISTRY_REPORT_COLUMNS = ['SAMPLE', 'SAMPLE_TYPE', 'Au', 'Cu', 'S', 'Fe', 'Pb', 'Zn', 'Ag', 'Peso']
+CHEMISTRY_REPORT_METHODS = ['METHOD CODE', '', 'FAAAS', 'AAS', 'LECO', 'AAS', 'AAS', 'AAS', 'AAS', 'LAB']
+CHEMISTRY_REPORT_UNITS = ['UNIT', '', 'g/t', '%', '%', '%', '%', '%', 'g/t', '%']
+CHEMISTRY_REPORT_COLUMNS = ['SAMPLE', 'SAMPLE_TYPE', 'Au', 'Cu', 'S', 'Fe', 'Pb', 'Zn', 'Ag', 'Solid']
 
 # Umidity reports
 UMIDITY_REPORT_METHODS = ['METHOD CODE', '', 'LAB']

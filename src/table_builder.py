@@ -48,7 +48,7 @@ def __build_table_values(report_sheet, report_type):
                      CHEMISTRY_REPORT_COLUMNS[6]: __get_column_values(report_sheet, PB_COL_IDX),
                      CHEMISTRY_REPORT_COLUMNS[7]: __get_column_values(report_sheet, ZN_COL_IDX),
                      CHEMISTRY_REPORT_COLUMNS[8]: __get_column_values(report_sheet, AG_COL_IDX),
-                     CHEMISTRY_REPORT_COLUMNS[9]: __get_column_values(report_sheet, WEIGHT_COL_IDX)}
+                     CHEMISTRY_REPORT_COLUMNS[9]: __get_column_values(report_sheet, SOLID_COL_IDX)}
     elif report_type == 'Umidade':
         raw_table = {UMIDITY_REPORT_COLUMNS[0]: __get_column_values(report_sheet, SAMPLE_COL_IDX),
                      UMIDITY_REPORT_COLUMNS[1]: __get_sample_type_values(report_sheet),
