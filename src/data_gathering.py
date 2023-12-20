@@ -99,3 +99,16 @@ def __get_sample_type_values(report_sheet):
         else:
             sample_types.append('A')
     return sample_types
+
+
+def __get_sample_number_values(report_sheet):
+    sample_numbers = []
+    samples = __get_column_values(report_sheet, SAMPLE_COL_IDX)
+    for sample in samples:
+        if 'DF' in sample:
+            sample_numbers.append(sample[:-6])
+        elif 'DQ' in sample:
+            sample_numbers.append(sample[:-4])
+        else:
+            sample_numbers.append(sample)
+    return sample_numbers

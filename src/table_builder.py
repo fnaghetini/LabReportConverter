@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from src.constants import *
 from src.data_gathering import __get_dispatch_number, __get_number_of_samples, __get_sample_type_values
-from src.data_gathering import __get_date_received, __get_date_finalized
+from src.data_gathering import __get_sample_number_values, __get_date_received, __get_date_finalized
 from src.data_gathering import __get_column_values
 
 
@@ -39,7 +39,7 @@ def __build_method_unit_table(report_type):
 
 def __build_table_values(report_sheet, report_type):
     if report_type == 'Químico':
-        raw_table = {CHEMISTRY_REPORT_COLUMNS[0]: __get_column_values(report_sheet, SAMPLE_COL_IDX),
+        raw_table = {CHEMISTRY_REPORT_COLUMNS[0]: __get_sample_number_values(report_sheet),
                      CHEMISTRY_REPORT_COLUMNS[1]: __get_sample_type_values(report_sheet),
                      CHEMISTRY_REPORT_COLUMNS[2]: __get_column_values(report_sheet, AU_COL_IDX),
                      CHEMISTRY_REPORT_COLUMNS[3]: __get_column_values(report_sheet, CU_COL_IDX),
