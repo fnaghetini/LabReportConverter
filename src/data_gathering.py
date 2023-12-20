@@ -87,9 +87,9 @@ def __get_sample_type_values(report_sheet):
         if sample in ('*', '', ' '):
             sample_types.append('DROP')
         elif 'DF' in sample:
-            sample_types.append('D')
-        elif 'DQ' in sample:
             sample_types.append('P')
+        elif 'DQ' in sample:
+            sample_types.append('D')
         elif 'UMID' in sample:
             sample_types.append('H')
         elif 'DENS' in sample:

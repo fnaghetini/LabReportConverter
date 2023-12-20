@@ -78,8 +78,8 @@ Aplicativo que converte laudos para template no formato Fusion.
 - **Amostras de QA/QC interno não serão importadas para o banco**. Portanto, as amostras com as seguintes cadeias de caracteres no nome não serão registradas no template final:
   - **Padrões**: `CHKCAL` e `MR`
   - **Brancos**: `BRANCO`
-- As **duplicatas físicas** são identificadas por possuírem a cadeia de caracteres `DF` em seu nome. Elas serão rotuladas com o código `D`.
-- As **duplicatas de análise** são identificadas por possuírem a cadeia de caracteres `DQ` em seu nome. Elas serão rotuladas com o código `P`.
+- As **duplicatas físicas** são identificadas por possuírem a cadeia de caracteres `DF` em seu nome. Elas serão rotuladas com o código `P`.
+- As **duplicatas de análise** são identificadas por possuírem a cadeia de caracteres `DQ` em seu nome. Elas serão rotuladas com o código `D`.
 - As **amostras de umidade** são identificadas por possuírem a cadeia de caracteres `UMID` em seu nome. Elas serão rotuladas com o código `H`.
 - As **amostras de densidade** são identificadas por possuírem a cadeia de caracteres `DENS` em seu nome. Elas serão rotuladas com o código `DE`.
 - As **demais amostras** são aquelas que não apresentam nenhuma dessas cadeias de caracteres em seu nome. Elas serão rotuladas com o código `A`.
